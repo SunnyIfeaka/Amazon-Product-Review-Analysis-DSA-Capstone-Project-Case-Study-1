@@ -9,14 +9,13 @@ This project analyzes Amazon product and customer review data to generate insigh
 - Customer engagement enhancement
 
 The analysis was done using Microsoft Excel, with advanced functions, pivot tables, charts, and a final interactive dashboard.
-
 ---
 
 ##  Dataset Description
 
 - **Source**: Scraped Amazon data  
 - **Records**: 1,465 total products  
-- **Cleaned for analysis**: 1,352 unique products  
+- **Cleaned for analysis**: 1,351 unique products  
 - **Columns Included**:
   - Product ID
   - Product Name
@@ -34,7 +33,6 @@ The analysis was done using Microsoft Excel, with advanced functions, pivot tabl
   - Pivot Tables
   - Conditional Formatting
   - Charts (Bar, Column, Pie)
-  - Slicers
   - Dashboard Design
 - **GitHub** *(for documentation and project hosting)*
 
@@ -50,10 +48,51 @@ The analysis was done using Microsoft Excel, with advanced functions, pivot tabl
   - Review Buckets
   - Discount Buckets
   - Combined Review Score (`Rating + (Review Count ÷ Scaling Factor)`)
-
 ---
 
----
+##  Analysis Tasks and Insights
+
+### Key Analytical Questions
+1. What is the average discount percentage by product category? 
+2. How many products are listed under each category? 
+3. What is the total number of reviews per category?  
+4. Which products have the highest average ratings? 
+5. What is the average actual price vs the discounted price by category? 
+6. Which products have the highest number of reviews? 
+7. How many products have a discount of 50% or more? 
+8. What is the distribution of product ratings (e.g., how many products are rated 3.0, 4.0, etc.)? 
+9. What is the total potential revenue (actual_price × rating_count) by category? 
+10. What is the number of unique products per price range bucket (e.g., <₹200, ₹200–₹500, >₹500)? 
+11. How does the rating relate to the level of discount? 
+12. How many products have fewer than 1,000 reviews? 
+13. Which categories have products with the highest discounts? 
+14. Identify the top 5 products in terms of rating and number of reviews combined.
+
+
+## 💡 Insights & Recommendations
+
+### 📦 Product Improvement
+- Several products rated below 3.5 despite deep discounts — may require quality review or de-listing
+- Hidden gems (rating ≥ 4.5 but < 500 reviews) should be promoted more aggressively
+
+### 🎯 Marketing Strategy
+- Electronics generated the highest potential revenue — ideal for ad targeting
+- Home & Kitchen had many products with high reviews and moderate discounts — stable performer
+
+### 👥 Customer Engagement
+- 65%+ of products had <1,000 reviews — visibility is a concern
+- Use influencer marketing, sponsored ads to boost engagement for quality products with low reach
+
+
+Electronics dominate in revenue but also show high return rates — possible quality concerns.
+
+52% of products have under 1,000 reviews, indicating a need for better visibility or promotion.
+
+Some low-rated products are still heavily discounted — a flag for poor value perception.
+
+A few standout products drive a large share of reviews and positive sentiment — ideal for spotlighting in marketing.
+
+
 
 ## 📊 Dashboard Overview
 
