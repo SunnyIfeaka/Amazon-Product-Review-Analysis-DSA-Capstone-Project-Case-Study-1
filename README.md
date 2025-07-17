@@ -8,9 +8,6 @@ This project analyzes Amazon product and customer review data to generate insigh
 - Marketing strategy refinement
 - Customer engagement enhancement
 
-The analysis was done using Microsoft Excel, with advanced functions, pivot tables, charts, and a final interactive dashboard.
----
-
 ##  Dataset Description
 
 - **Source**: Scraped Amazon data  
@@ -93,38 +90,6 @@ Some low-rated products are still heavily discounted — a flag for poor value p
 A few standout products drive a large share of reviews and positive sentiment — ideal for spotlighting in marketing.
 
 
-
-## 📊 Dashboard Overview
-
-The interactive dashboard presents summarized KPIs, charts, and tables, allowing stakeholders to quickly grasp product-level insights.
-
-### Key Features
-
-| Section | Description |
-|--------|-------------|
-| 🏆 **Top Products** | Ranked by a combined score of rating × reviews |
-| 💰 **Top Revenue Categories** | Which categories contribute most to potential revenue |
-| 🔍 **Low-rated Products** | Products with rating < 3.5 for quality attention |
-| 🧨 **High Discount + Low Rating** | Products needing steep pricing despite poor reviews |
-| 📉 **Most Returned Products** | If available, shows dissatisfaction or expectation gap |
-| 🗣️ **Rating Distribution** | Understand customer sentiment at a glance |
-| 🧍 **% with <1,000 Reviews** | Discoverability and visibility insight |
-| 📦 **Influential Products** | Rating × Reviews highlights power products |
-
----
-
-## 📌 Key Performance Indicators (KPIs)
-
-| KPI | Description | Icon |
-|-----|-------------|------|
-| 📦 **Total Products** | Total number of unique products analyzed | ![#](https://img.icons8.com/color/amazon-icon.png) |
-| ⭐ **Average Rating** | Average customer rating across products | 🟠 |
-| 💬 **Total Reviews** | Total number of reviews accumulated | 💭 |
-| 💵 **Total Potential Revenue** | Sum of all expected product revenues | 💰 |
-| 🔎 **Products with <1,000 Reviews (%)** | Products with low engagement visibility | 📉 |
-
----
-
 ## 📈 Insights & Recommendations
 
 ### ✅ Product Improvement
@@ -140,28 +105,3 @@ The interactive dashboard presents summarized KPIs, charts, and tables, allowing
 - Rating distribution suggests overall customer satisfaction is **X% positive** (optional if analyzed).
 
 ---
-
-## 🔄 Suggested Improvements
-
-- Include **date/timestamp** to track trends over time.
-- Add **return rate column** if data permits.
-- Incorporate **competitor benchmarks** for deeper comparisons.
-- Automate updates using Power Query (future iteration).
-
----
-
-## 🗂️ File Structure
-
-```bash
-Amazon-Excel-CaseStudy/
-│
-├── 📁 Data/
-│   └── amazon_products.xlsx
-│
-├── 📁 Dashboard/
-│   └── amazon_dashboard.xlsx
-│
-├── 📁 Images/
-│   └── dashboard_screenshot.png
-│
-├── README.md
