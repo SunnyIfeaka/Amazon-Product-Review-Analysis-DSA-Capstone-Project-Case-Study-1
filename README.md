@@ -66,42 +66,44 @@ This project analyzes Amazon product and customer review data to generate insigh
 14. Identify the top 5 products in terms of rating and number of reviews combined.
 
 
-## 💡 Insights & Recommendations
+## Key Analytical Questions & Insights
+This section breaks down the findings from the 14 analytical tasks and provides specific recommendations. 
 
-### 📦 Product Improvement
-- Several products rated below 3.5 despite deep discounts — may require quality review or de-listing
-- Hidden gems (rating ≥ 4.5 but < 500 reviews) should be promoted more aggressively
+### 1. What is the average discount percentage by product category?
+**Insight:** Categories such as *Home Improvements*, *Computer & Accessories*  and *Health & Personal Care* show higher average discount percentages. This could be leveraged during seasonal campaigns or flash sales to further boost visibility and conversions.
+### 2. How many products are listed under each category?
+**Insight:** Categories like *Electronics*, *Home & Kitchen* and *Computer & Accessories* dominate the catalog. This insight can guide inventory and merchandising decisions.
+### 3. What is the total number of reviews per category?
+**Insight:** *Electronics*, *Computer & Accessories*, and *Home & Kitchen* receive significantly higher review volumes, indicating higher customer engagement or more mature markets. These are good targets for review-based promotions.
+### 4. Which products have the highest average ratings?
+**Insight:** Products majorly in categories of *Computer & Accessories*, *Electronics*, and *Home & Kitchen* are top rated. Top-rated products often belong to niche subcategories or premium brands. These can be featured in "Amazon’s Choice" or "Recommended for You" promotions.
+### 5. What is the average actual price vs. discounted price by category?
+**Insight:** The average price drop is most significant in categories with high competition. Categories like *Electronics* have a significant average price drop. Competitive pricing can be a key strategy in this market.
+### 6. Which products have the highest number of reviews?
+**Insight:** *Amazon HDMI Cables* in the *Electronics* category have the highest number of reviews. Products with the most reviews tend to be bestsellers or flagship items. They can be bundled or cross-sold with newer products to leverage existing popularity.
+### 7. How many products have a discount of 50% or more?
+**Insight:** A moderate number of products are heavily discounted, mostly in *Electronics* or *Computer & Accessories*. Investigate products with high discounts for cost-justification.
+### 8. What is the distribution of product ratings?
+**Insight:** Most products cluster around 3.5 to 4.5 stars. Very few products are below 3.0 stars and above 4.5 stars. Very low-rated products may need attention for quality improvement or removal.
+### 9. What is the total potential revenue (actual price × rating count) by category?
+**Insight:** Categories like *Electronics* *Computer & Accessories*, and *Home & Kitchen* generate the highest potential revenue. This suggests where marketing budgets can be best allocated for maximum return.
+### 10. What is the number of unique products per price range bucket?
+**Insight:** Majority of products fall within the >₹500 range, indicating a price-sensitive customer base. Premium products should be differentiated clearly in the value proposition.
+### 11. How does rating relate to the level of discount?
+**Insight:** There appears to be no consistent correlation between high discount levels and ratings. Products with the highest average ratings often have lower discounts,  while products with lower average ratings often have higher discounts, suggesting quality drives reviews more than price cuts. Focus on value, not just price.
+### 12. How many products have fewer than 1,000 reviews?
+**Insight:** Most products in the dataset have already crossed the 1,000-review threshold, indicating a healthy level of customer engagement. However, for the smaller segment of under-reviewed products, targeted strategies such as promotions or review incentives could help improve visibility and trust.
+### 13. Which categories have products with the highest discounts?
+**Insight:** *Computer & Accessories*, *Electronics*, and *Home & Kitchen* products show the steepest discounts, ideal for promoting in clearance events, like Prime Day or Black Friday, or influencer marketing.
+### 14. Identify the top 5 products in terms of rating and number of reviews combined.
+**Insight:** These products should be spotlighted in marketing campaigns, bundled with newer SKUs, or leveraged as flagship store items.
 
-### 🎯 Marketing Strategy
-- Electronics generated the highest potential revenue — ideal for ad targeting
-- Home & Kitchen had many products with high reviews and moderate discounts — stable performer
 
-### 👥 Customer Engagement
-- 65%+ of products had <1,000 reviews — visibility is a concern
-- Use influencer marketing, sponsored ads to boost engagement for quality products with low reach
+## Recommendations
 
+1. **Boost visibility for under-reviewed products** using incentives or Amazon Vine programs.
+2. **Promote top-rated products** through Amazon ads and feature placements.
+3. **Segment campaigns by price sensitivity** using the pricing bucket analysis.
+4. **Review underperforming SKUs** (low rating + low review) for quality assurance.
+5. **Invest marketing spend in high revenue potential categories** identified in the revenue analysis.
 
-Electronics dominate in revenue but also show high return rates — possible quality concerns.
-
-52% of products have under 1,000 reviews, indicating a need for better visibility or promotion.
-
-Some low-rated products are still heavily discounted — a flag for poor value perception.
-
-A few standout products drive a large share of reviews and positive sentiment — ideal for spotlighting in marketing.
-
-
-## 📈 Insights & Recommendations
-
-### ✅ Product Improvement
-- Target low-rated products (<3.5) for quality upgrade.
-- Investigate products with high returns or discounts for cost-justification.
-
-### 📢 Marketing Strategy
-- Focus ad spend on top revenue-generating categories.
-- Leverage high influence products (high rating × reviews) in promotions.
-
-### 👥 Customer Engagement
-- Improve visibility for products with <1,000 reviews via campaigns.
-- Rating distribution suggests overall customer satisfaction is **X% positive** (optional if analyzed).
-
----
